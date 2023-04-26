@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(49, 161, 161);
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid #144;
+    box-shadow: 0 0 0 2px rgb(11, 137, 137);
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    background-color: #fff;
+}
+h1,
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    margin: 30px auto 20px;
+}
+button {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color:rgb(4, 91, 91)
+}
+button:hover {
+    color: #fff;
+    background-color: rgb(12, 178, 178);
+}
